@@ -2,7 +2,7 @@ const nav = document.querySelector('.navbar');
 window.onscroll = function () { 
     var top = window.scrollY;
     console.log(top);
-    if (top >= 700) {
+    if (top >= 680) {
         nav.classList.add('activated')
     }
     else { 
