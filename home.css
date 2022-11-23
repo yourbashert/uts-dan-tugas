@@ -21,6 +21,7 @@
 /* mengubah background color pada body dan font */
 body { 
     background-color: #212121;
+    font-family: 'poppins', sans-serif;
 }
 
 /* mengedit navbar sampai ke navbar-nav */
@@ -100,12 +101,18 @@ footer {
 }
 .list { 
     padding-top: 2em;
+    border: 1px #1a1a1a solid;
 }
 
 .titleContent { 
     padding-left: 0.5em;
     color: white;
     color-interpolation-filters: auto;
+}
+#without-container.titleContent { 
+    padding-left: 4em;
+    padding-top: 2em;
+    margin-bottom: 1em;
 }
 /* mengedit carousel */
 .carousel-item { 
