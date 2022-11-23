@@ -68,11 +68,12 @@ footer {
 }
 /* mengedit container selain container bawaan bootstrap */
 .notFirstContainer{ 
-    margin-top: 2em;
+    margin-top: 4em;
     margin-bottom: 4em;
     border: 1px white solid;
     padding-top: 1em;
     padding-bottom: 2em;
+    border-radius: 10px;
 }
 .icon { 
     height: 35px;
@@ -83,11 +84,22 @@ footer {
     margin-top: auto;
 
 }
+.text { 
+    background-color: blue;
+}
 .termInfo { 
     font-size: 13px;
 }
 .harga-promo { 
     color:#dc3545;
+}
+.divider { 
+    border: 5px #1a1a1a solid;
+    margin-top: 1em;
+
+}
+.list { 
+    padding-top: 2em;
 }
 
 .titleContent { 
