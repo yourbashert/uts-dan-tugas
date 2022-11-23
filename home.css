@@ -4,6 +4,10 @@
     src: url(/Assets/fonts/INCANTAT.TTF);
 }
 @font-face {
+    font-family: titanicFont;
+    src: url(/Assets/fonts/TrajanPro-Regular.ttf);
+}
+@font-face {
     font-family: minionsFont;
     font-size: bold;
     src: url(/Assets/fonts/Bauhaus\ Demi.otf) format("opentype");
@@ -17,7 +21,6 @@
 /* mengubah background color pada body dan font */
 body { 
     background-color: #212121;
-    color: aliceblue;
 }
 
 /* mengedit navbar sampai ke navbar-nav */
@@ -45,17 +48,52 @@ nav.navbar.activated a:hover {
     height: auto;
     transition: all 0.3s;
 }
+footer { 
+    color: white;
+}
+.card { 
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.card .buy-button { 
+    position: relative;
+    align-items: center;
+    justify-content: center;
 
+}
+.button { 
+    width: fit-content;
+    margin-bottom: 1em;
+    margin-top: 0;
+}
 /* mengedit container selain container bawaan bootstrap */
 .notFirstContainer{ 
     margin-top: 2em;
-    margin-bottom: 2em;
-    border: 2px rebeccapurple solid;
+    margin-bottom: 4em;
+    border: 1px white solid;
     padding-top: 1em;
+    padding-bottom: 2em;
+}
+.icon { 
+    height: 35px;
+    width: 35px;
+    position: relative;
+    align-items: center;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+.termInfo { 
+    font-size: 13px;
+}
+.harga-promo { 
+    color:#dc3545;
 }
 
 .titleContent { 
-    padding-left: 1em;
+    padding-left: 0.5em;
+    color: white;
+    color-interpolation-filters: auto;
 }
 /* mengedit carousel */
 .carousel-item { 
@@ -68,9 +106,10 @@ nav.navbar.activated a:hover {
     text-align: left;
     color: whitesmoke;
     max-width: 500px;
-    top: 50%;
-    bottom: auto;
+    bottom: 20%;
+    top: auto;
 }
+
 
 /* mengedit karakter tiap konten carousel */
 #incantation { 
@@ -83,14 +122,13 @@ nav.navbar.activated a:hover {
     font-size: 5em;
     max-width: 500px;
 }
-
 #minions { 
     font-family: 'minionsFont';
     font-size: 6em;
     max-width: 500px;
 }
 #titanic { 
-    font-family: incantationFont;
+    font-family: titanicFont;
     font-size: 4em;
     max-width: 500px;
 }
