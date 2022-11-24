@@ -5,6 +5,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="/Assets/icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/Assets/icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/Assets/icon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="icon" href="/Assets/icon/website-logo.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,84 +34,124 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link active gerak" aria-current="page" href="/index.html">Home</a>
-                        <a class="nav-link active gerak" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link active gerak" href="portfolio.html">About</a>
                     </div>
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="Assets/incantation.jpg" class="d-block vw-100" alt="..." data-bs-interval="1000">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Assets/incantation.jpg" class="d-block vw-100" alt="Incantation" data-bs-interval="100">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 id="incantation">INCANTATION</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et doloremque ipsam adipisci
                             corporis rerum facere, assumenda, labore impedit accusantium incidunt ullam dolores sed eos.
                             Debitis sed maiores expedita cumque magnam est facere possimus necessitatibus quis!</p>
+                        <br><button class="watch-button btn btn-danger text-white ">
+                            <img class="icon" src="/Assets/icon/play-button.png" alt="play button">
+                            <span class="fw-bold">Watch now</span>
+                        </button>
                     </div>
                 </div>
-                <div class="carousel-item ">
-                    <img src="Assets/batman.jpg" class="d-block vw-100" alt="..." data-bs-interval="1000">
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="Assets/batman.jpg" class="d-block vw-100" alt="Batman" data-bs-interval="800">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5 id="batman">The Dark Night</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque deleniti animi maiores
+                            ut ab. Sit aliquam excepturi perspiciatis! Nostrum inventore laudantium nam ab magnam. Quo
+                            necessitatibus perspiciatis assumenda animi et!</p>
+                        <br><button class="watch-button btn btn-danger text-white ">
+                            <img class="icon" src="/Assets/icon/play-button.png" alt="play button">
+                            <span class="fw-bold">Watch now</span>
+                        </button>
                     </div>
                 </div>
-                <div class="carousel-item ">
-                    <img src="Assets/minion.jpg" class="d-block vw-100" alt="..." data-bs-interval="1000">
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="Assets/minions.jpg" class="d-block vw-100" alt="minions" data-bs-interval="800">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5 id="minions">minions</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, est laborum dolorem
+                            officia veritatis minima illum quis eius corrupti reiciendis a, mollitia architecto ipsum,
+                            molestiae voluptatum debitis. Possimus, necessitatibus quas..</p>
+                        <br><button class="button btn btn-danger text-white ">
+                            <img class="icon" src="/Assets/icon/play-button.png" alt="play button">
+                            <span class="fw-bold">Watch now</span>
+                        </button>
                     </div>
                 </div>
-                <div class="carousel-item ">
-                    <img src="Assets/titanic.jpg" class="d-block vw-100" alt="..." data-bs-interval="1000">
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="Assets/titanic.jpg" class="d-block vw-100" alt="Titanic" data-bs-interval="800">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5 id="titanic">Titanic</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis accusantium vero
+                            repellendus magni ut aliquid fugiat, quia illo commodi maiores voluptatum, nisi, obcaecati
+                            rem praesentium repudiandae! Velit ipsum aliquid sit. </p>
+                        <br><button class="button btn btn-danger text-white ">
+                            <img class="icon" src="/Assets/icon/play-button.png" alt="play button">
+                            <span class="fw-bold">Watch now</span></button>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev vh-100" type="button" data-bs-target="#carouselExampleInterval"
+            <button class="carousel-control-prev vh-100" type="button" data-bs-target="#carouselExampleFade"
                 data-bs-slide="prev">
                 <span class="" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
                 data-bs-slide="next">
                 <span aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="container notFirstContainer vh-100">
-            <h2 class="titleContent">Special Offer</h2>
+        <div class="container notFirstContainer">
+            <h2 class="titleContent">Special Offers: UTS Sales</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="card">
-                            <h2> Incantation </h2>
+                    <div class="col-6">
+                        <div class="card bg-light">
+                            <h2>Incantation</h2>
+                            <h3 class="harga-promo">Rp 20.000</h3>
+                            <p class="termInfo">Hanya berlaku di mimpi saudara-saudara</p>
+                            <br>
+                            <button class="button btn btn-danger text-white">
+                                <img class="icon" src="/Assets/icon/purchase.png" alt="purchase">
+                                <span class="fw-bold">Purchase</span>
+                            </button>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <h2>Minion </h2>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <h2>Titanic </h2>
+                    <div class="col-6">
+                        <div class="card bg-light">
+                            <h2>Minions</h2>
+                            <h3 class="harga-promo">Rp 30.000,-</h3>
+                            <p class="termInfo">Berlaku di bioskop kesayangan anda (tapi tidak disayang balik haha..)
+                            </p>
+                            <br><button class="button btn btn-danger text-white ">
+                                <img class="icon" src="/Assets/icon/purchase.png" alt="purchase">
+                                <span class="fw-bold">Purchase</span></button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <footer class="kaki">
-            <p>datang ke sawah memakai sawah, tidak lupa membeli surya ketika hujan, maaf jika website ini tak terlalu
+        <hr class="rounded divider">
+        <div class="bg-light container-fluid">
+            <h2 class="titleContent text-dark" id="without-container"> List Bioskop</h2>
+            <div class="row">
+                <div class="col-md-3 offset-md-1 test list pt-1 mb-5 rounded">
+                    <a href="#"></a> <br>
+                    <a href="#">Bioskop</a> <br>
+                    <a href="#">Bioskop</a> <br>
+                    <a href="#">Bioskop</a> <br>
+                    <a href="#">Bioskop</a> <br>
+                    <a href="#">Bioskop</a> <br>
+                    <a href="#">Bioskop</a> <br>
+                </div>
+                <div class="col-md-6 offset-md-1 test list pt-1 mb-5">One of two columns </div>
+            </div>
+        </div>
+        <footer class="kaki bg-dark text-light">
+            <p>Main sepeda keliling sawah, tidak lupa membeli surya ketika hujan, maaf jika website ini tak terlalu
                 indah, asal nilai aman pada uj(i)an</p>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
