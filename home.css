@@ -22,6 +22,7 @@
 body { 
     background-color: #212121;
     font-family: 'poppins', sans-serif;
+    
 }
 
 /* mengedit navbar sampai ke navbar-nav */
@@ -66,6 +67,8 @@ footer {
     width: fit-content;
     margin-bottom: 1em;
     margin-top: 0;
+    top: 0;
+
 }
 /* mengedit container selain container bawaan bootstrap */
 .notFirstContainer{ 
@@ -75,6 +78,7 @@ footer {
     padding-top: 1em;
     padding-bottom: 2em;
     border-radius: 10px;
+    background-color: #1a1a1a;
 }
 .icon { 
     height: 35px;
@@ -85,9 +89,7 @@ footer {
     margin-top: auto;
 
 }
-.text { 
-    background-color: blue;
-}
+
 .termInfo { 
     font-size: 13px;
 }
@@ -103,6 +105,11 @@ footer {
     padding-top: 2em;
     border: 1px #1a1a1a solid;
 }
+.list a { 
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: 0;
+}
 
 .titleContent { 
     padding-left: 0.5em;
@@ -114,7 +121,20 @@ footer {
     padding-top: 2em;
     margin-bottom: 1em;
 }
-/* mengedit carousel */
+/* eidting scrollspy */
+.scrollspy{ 
+    background-color: #1a1a1a;
+    color: white;
+    margin-left: 6.4em !important;
+    padding-top: 3em;
+    position: relative;
+   
+}
+.scrollMomento {
+    height: 300px;
+    overflow: auto;
+}
+    /* mengedit carousel */
 .carousel-item { 
     height: 100vh;
     position: relative;
@@ -127,6 +147,10 @@ footer {
     max-width: 500px;
     bottom: 20%;
     top: auto;
+}
+.carousel-control-next, .carousel-control-prev { 
+    width: 50%;
+    min-height: 100vh;
 }
 
 
